@@ -4,7 +4,12 @@ import (
 	"fmt"
 )
 
+func print(s string) {
+	fmt.Println(s + "\n")
+}
+
 func main() {
-	fmt.Println("Go compiles and runs! Yay!\n")
+	var s string = "Go compiles and runs! Yay!"
+	print(s)
 }
 
